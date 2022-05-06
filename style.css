@@ -1,0 +1,73 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    width: auto;
+}
+
+.frase{
+    width: 175px;
+}
+
+article{
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    width: 30%;
+    min-width: 230px;
+    background-color: bisque;
+    margin: 10px;
+}
+
+.central{
+    text-align: center;
+    max-height: 250px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 1100px;
+}
+
+.no-punct{
+    list-style: none;
+}
+
+.art1::after{
+    background-image: url("./media/iphone-icon.png");
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 500px;
+}
+
+@media screen and (min-width: 600px) {
+    .flex{
+        display: flex;
+        max-width: 750px;
+        flex-wrap: wrap;
+    }
+}
